@@ -11,11 +11,11 @@ body {
 .text {
   font-size: 3.5rem;
   color: #fff;
-  line-height: 4rem;
+  line-height: 4.2rem;
   position: absolute;
   top: 180px;
-  left: 80px;
-  width: 300px;
+  left: 70px;
+  width: 320px;
   z-index: 4;
   opacity: 0;
   animation: text-opacity 2s ease;
