@@ -15,7 +15,7 @@ body {
   position: absolute;
   top: 180px;
   left: 70px;
-  width: 320px;
+  width: 310px;
   z-index: 4;
   opacity: 0;
   animation: text-opacity 2s ease;
