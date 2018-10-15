@@ -1,10 +1,33 @@
 html {
   font-family: "Unica One", sans-serif;
+  line-height: 1.8em;
 }
 
 .text {
+  font-size: 3.5rem;
   color: #fff;
-  font-size: 2rem;
+  line-height: 4rem;
+  position: absolute;
+  width: 290px;
+  top: 100%;
+  left: 5%;
+  transform: translate(5%, 100%);
+  z-index: 4;
+  animation: opacity 3s linear;
+  animation: blur 2s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
 }
 
 #narwhal-body {
