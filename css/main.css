@@ -14,7 +14,6 @@ html {
   transform: translate(5%, 100%);
   z-index: 4;
   animation: opacity 3s linear;
-  animation: blur 2s linear;
   animation-fill-mode: forwards;
 }
 
@@ -22,6 +21,31 @@ html {
 
   0% {
     opacity: 0;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-eye {
+  animation: opacity 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .5;
   }
 
   100% {
