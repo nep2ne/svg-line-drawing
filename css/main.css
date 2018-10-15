@@ -14,12 +14,7 @@ body {
   line-height: 4rem;
   position: absolute;
   width: 290px;
-  top: 100%;
-  left: 5%;
-  transform: translate(5%, 100%);
-  z-index: 4;
-  opacity: 0;
-  animation: opacity 3s linear;
+  animation: opacity 1s linear;
   animation-fill-mode: forwards;
 }
 
