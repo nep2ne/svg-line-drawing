@@ -3,6 +3,11 @@ html {
   line-height: 1.8em;
 }
 
+body {
+  position: relative;
+  width: 100%;
+}
+
 .text {
   font-size: 3.5rem;
   color: #fff;
@@ -13,6 +18,7 @@ html {
   left: 5%;
   transform: translate(5%, 100%);
   z-index: 4;
+  opacity: 0;
   animation: opacity 3s linear;
   animation-fill-mode: forwards;
 }
@@ -34,6 +40,7 @@ html {
 }
 
 #narwhal-eye {
+  opacity: 0;
   animation: opacity 3s linear;
   animation-fill-mode: forwards;
 }
@@ -55,7 +62,7 @@ html {
 }
 
 #narwhal-body {
-  animation: narwhal-appear 3s linear;
+  animation: narwhal-appear 2s linear;
   animation-fill-mode: forwards;
   stroke-dasharray: 1908.791px;
   stroke-dashoffset: 1908.791px;
